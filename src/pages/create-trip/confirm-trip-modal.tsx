@@ -35,7 +35,7 @@ export function ConfirmTripModal({
           </p>
         </div>
 
-        <form onClick={createTrip} className="space-y-32">
+        <form onClick={createTrip} className="space-y-3">
           <div className="p-2.5 bg-zinc-950 border border-zinc-800 rounded-lg flex items-center gap-2">
             <AtSign className="text-zinc-400 size-5" />
             <input
