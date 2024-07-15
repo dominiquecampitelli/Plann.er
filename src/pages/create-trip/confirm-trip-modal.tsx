@@ -1,4 +1,4 @@
-import { AtSign, Plus, X } from "lucide-react";
+import { AtSign, Plus, User, X } from "lucide-react";
 import { FormEvent } from "react";
 import { Button } from "../../components/button";
 
@@ -42,7 +42,7 @@ export function ConfirmTripModal({
 
         <form onClick={createTrip} className="space-y-3">
           <div className="p-2.5 bg-zinc-950 border border-zinc-800 rounded-lg flex items-center gap-2">
-            <AtSign className="text-zinc-400 size-5" />
+            <User className="text-zinc-400 size-5" />
             <input
               name="name"
               placeholder="Seu nome completo"
